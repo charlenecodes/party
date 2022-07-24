@@ -1,0 +1,116 @@
+/* The styles are organized by pages and the location that they appear in the pages as much as possible */
+
+/* NAV BAR, HEADER FOR HOME */
+
+img.header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  padding: 15px 5px 0px -5px;
+}
+
+div.nav {
+  border-top: 1px #508D68 solid;
+  border-bottom: 1px #508D68 solid;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: "Karla", Arial, sans-serif;
+  padding: 15px;
+  color: #7BAE83;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: rgba(180, 201, 134, 0.26);
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+}
+
+a:hover {
+color: #508d68;
+text-decoration: underline;
+text-decoration-color: #508d68;
+font-weight: bolder;
+}
+
+img.myphoto {
+    border-radius: 50%;
+    max-width: 10%;
+    opacity: 0.9;
+  }
+
+span.underline {
+  text-decoration: underline;
+  text-decoration-color: #508d68;
+  color: black;
+  background-color: white;
+}
+
+mark {
+  background-color: #508D68;
+  color: white;
+  padding: 0 0.2em;
+  }
+  
+h1, h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+}
+
+li, p {
+  font-family: "Karla", Arial, sans-serif;
+  color: #508D68;
+}
+
+main {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.intro {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* BODY */
+
+div.container {
+  max-width: 800px;
+  
+  border: #7BAE83;
+}
+
+/* FOOTER */
+
+.button {
+  /* background-color: #f2fbfa; */
+  background-color: rgba(180, 201, 134, 0.26);
+  color: #508D68;
+  display: block;
+  transition-duration: 0.1s;
+  width: 100%;
+  border: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 40px;
+}
+
+.button:hover {
+  background-color: #508D68;
+  /* background-color: hsla(79,50%,72%,.1); */
+  color: white;
+}
+body {
+  background-color:white"
+}
+
+img.footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  background: repeat-x;
+  padding-top: 40px;
+}
