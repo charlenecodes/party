@@ -38,7 +38,7 @@ font-weight: bolder;
 
 img.myphoto {
     border-radius: 50%;
-    max-width: 10%;
+    max-width: 12%;
     opacity: 0.9;
   }
 
@@ -77,11 +77,15 @@ main {
 
 /* BODY */
 
-div.container {
-  max-width: 800px;
-  
-  border: #7BAE83;
+.container {
+  background: rgba(180, 201, 134, 0.26);
+  padding: 10px 20px;
+  /* border: 1px #508D68 solid; */
+  margin: 40px 100px;
+  box-shadow: 10px 10px .2px #508d68db;
 }
+
+
 
 /* FOOTER */
 
