@@ -5,9 +5,9 @@
 img.header {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-  max-width: 40%;
+  margin-right: auto; 
   padding: 15px 5px 0px -5px;
+  max-width: 25%;
 }
 
 div.nav {
@@ -16,11 +16,11 @@ div.nav {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  font-family: "Karla", Arial, sans-serif;
+  font-family: sans-serif;
   padding: 15px;
   color: #7BAE83;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 20px;
   background-color: rgba(180, 201, 134, 0.26);
 }
 
@@ -36,6 +36,18 @@ text-decoration-color: #508d68;
 font-weight: bolder;
 }
 
+/* BODY */
+
+main {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
 img.myphoto {
     border-radius: 50%;
     max-width: 12%;
@@ -43,16 +55,37 @@ img.myphoto {
   }
 
 span.underline {
-  text-decoration: underline;
+  /* text-decoration: underline;
   text-decoration-color: #508d68;
-  color: black;
-  background-color: white;
+  color: black; */
+  background-image: linear-gradient(to right,#7BAE8370 100%,#fff 0);
+  background-position: 0 80%;
+  background-repeat: repeat-x; /* IMPORTANT TO JUST COVER A CERTAIN PART */
+  background-size: 100% 30%;
+
 }
+
+span.underline:hover {
+  background: #508D68;
+  color: white;
+}
+
+/* HOW TO UNDERLINE SOMETHING WITHOUT USING TEXT DECORATOR
+USE A BACKGROUND IMAGE
+
+background-image: linear-gradient(to right,#dcd8a0 100%,#fff 0);
+background-position: 0 80%;
+background-repeat: repeat-x;
+background-size: 100% 23%;
+}
+
+*/
 
 mark {
   background-color: #508D68;
   color: white;
   padding: 0 0.2em;
+  box-shadow: 6px 6px .2px #7BAE8370;
   }
   
 h1, h2 {
@@ -67,6 +100,7 @@ li, p {
 
 main {
   font-family: 'Bebas Neue', cursive;
+  padding: 50px;
 }
 
 .intro {
@@ -75,16 +109,23 @@ main {
   padding: 20px;
 }
 
-/* BODY */
-
-.container {
-  background: rgba(180, 201, 134, 0.26);
-  padding: 10px 20px;
-  /* border: 1px #508D68 solid; */
-  margin: 40px 100px;
-  box-shadow: 10px 10px .2px #508d68db;
+div {
+  border: 20px;
+  padding: 5px;
+  margin: 1px 25px;
 }
 
+@media only screen and (max-width: 700px) {
+  .container .nav mark {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .container .nav mark {
+    width: 100%;
+  }
+}
 
 
 /* FOOTER */
