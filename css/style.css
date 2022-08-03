@@ -1,46 +1,61 @@
-/* The styles are organized by pages and the location that they appear in the pages as much as possible */
-
-/* NAV BAR, HEADER FOR HOME */
-
-img.header {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  padding: 15px 5px 0px -5px;
-  max-width: 25%;
-}
-
-div.nav {
-  border-top: 1px #508D68 solid;
-  border-bottom: 1px #508D68 solid;
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  font-family: sans-serif;
-  padding: 15px;
-  color: #7BAE83;
+.navbar-brand {
   text-transform: uppercase;
-  font-size: 20px;
-  background-color: rgba(180, 201, 134, 0.26);
-}
-
-a {
-  color: #222222;
-  text-decoration: none;
-}
-
-a:hover {
-color: #508d68;
-text-decoration: underline;
-text-decoration-color: #508d68;
-font-weight: bolder;
 }
 
 /* BODY */
 
+h1.mymark {
+  text-decoration: underline;
+  text-decoration-color: #f2dfb3;
+  text-decoration-thickness: 7px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Roboto Serif', serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #80b784;
+  }
+  
+p {
+  font-style: italic;
+  font-weight: 600;
+  color: #80b784;
+  font-family: 'Roboto Serif', serif;
+  font-size: 22px;
+}
+
 main {
-  margin-left: 50px;
-  margin-right: 50px;
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+}
+
+.container {
+  color: #4e4e4e;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+  color: #71ad74;
+  font-size: 24px;
+  font-family: 'Roboto Serif', serif;
+}
+
+.emph {
+  color: #ccac63;
+  font-size: 28px;
+  font-family: 'Roboto Serif', serif;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .map {
@@ -48,114 +63,8 @@ main {
   justify-content: center;
 }
 
-img.myphoto {
-    border-radius: 50%;
-    max-width: 12%;
-    opacity: 0.9;
-  }
 
-span.underline {
-  /* text-decoration: underline;
-  text-decoration-color: #508d68;
-  color: black; */
-  background-image: linear-gradient(to right,#7BAE8370 100%,#fff 0);
-  background-position: 0 80%;
-  background-repeat: repeat-x; /* IMPORTANT TO JUST COVER A CERTAIN PART */
-  background-size: 100% 30%;
-
-}
-
-span.underline:hover {
-  background: #508D68;
-  color: white;
-}
-
-/* HOW TO UNDERLINE SOMETHING WITHOUT USING TEXT DECORATOR
-USE A BACKGROUND IMAGE
-
-background-image: linear-gradient(to right,#dcd8a0 100%,#fff 0);
-background-position: 0 80%;
-background-repeat: repeat-x;
-background-size: 100% 23%;
-}
-
-*/
-
-mark {
-  background-color: #508D68;
-  color: white;
-  padding: 0 0.2em;
-  box-shadow: 6px 6px .2px #7BAE8370;
-  }
-  
-h1, h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 35px;
-}
-
-li, p {
-  font-family: "Karla", Arial, sans-serif;
-  color: #508D68;
-}
-
-main {
-  font-family: 'Bebas Neue', cursive;
-  padding: 50px;
-}
-
-.intro {
-  text-align: center;
-  font-size: 24px;
-  padding: 20px;
-}
-
-div {
-  border: 20px;
-  padding: 5px;
-  margin: 1px 25px;
-}
-
-@media only screen and (max-width: 700px) {
-  .container .nav mark {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-@media only screen and (max-width: 300px) {
-  .container .nav mark {
-    width: 100%;
-  }
-}
 
 
 /* FOOTER */
 
-.button {
-  /* background-color: #f2fbfa; */
-  background-color: rgba(180, 201, 134, 0.26);
-  color: #508D68;
-  display: block;
-  transition-duration: 0.1s;
-  width: 100%;
-  border: none;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 40px;
-}
-
-.button:hover {
-  background-color: #508D68;
-  /* background-color: hsla(79,50%,72%,.1); */
-  color: white;
-}
-body {
-  background-color:white"
-}
-
-img.footer {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  background: repeat-x;
-  padding-top: 40px;
-}
