@@ -1,4 +1,4 @@
-.navbar-brand {
+a.navbar-brand {
   text-transform: uppercase;
 }
 
@@ -37,17 +37,27 @@ main {
 .heading {
   color: #71ad74;
   font-size: 24px;
-  font-family: 'Roboto Serif', serif;
+  font-family: 'Roboto Serif', serif !important;
 }
 
 .emph {
   color: #ccac63;
   font-size: 28px;
   font-family: 'Roboto Serif', serif;
+  font-style: normal;
+}
+
+a {
+  color: #649867 !important;
+}
+
+a:hover {
+  color: #4e4e4e !important;
+  
 }
 
 ul {
-  padding-left: 10px;
+  padding-left: 35px;
 }
 
 li {
